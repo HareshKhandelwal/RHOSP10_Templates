@@ -1,0 +1,51 @@
+{
+    "nodes":[
+        {
+            "name": "overcloud-compute-8",
+            "mac":[
+                "2C:60:0C:CA:34:FD"
+            ],
+            "cpu":"4",
+            "memory":"6144",
+            "disk":"40",
+            "arch":"x86_64",
+            "pm_type":"pxe_ipmitool",
+            "pm_user":"admin",
+            "pm_password":"admin",
+            "pm_addr":"10.19.109.207",
+            "capabilities": "profile:compute,boot_option:local,boot_mode:uefi"
+        },
+        {
+            "name": "overcloud-compute-9",
+            "mac":[
+                "2C:60:0C:CA:A9:06"
+            ],
+            "cpu":"4",
+            "memory":"6144",
+            "disk":"40",
+            "arch":"x86_64",
+            "pm_type":"pxe_ipmitool",
+            "pm_user":"admin",
+            "pm_password":"admin",
+            "pm_addr":"10.19.109.209",
+            "capabilities":"profile:compute,boot_option:local,boot_mode:uefi",
+            "root_device":"serial:cvft543400b6400ggn"
+        },
+        {
+            "name": "overcloud-controller-11",
+            "mac":[
+                "2C:60:0C:CD:12:46"
+            ],
+            "cpu":"4",
+            "memory":"6144",
+            "disk":"40",
+            "arch":"x86_64",
+            "pm_type":"pxe_ipmitool",
+            "pm_user":"admin",
+            "pm_password":"admin",
+            "pm_addr":"10.19.109.213",
+            "capabilities":"profile:control,boot_option:local,boot_mode:uefi",
+            "root_device":"serial:cvft5434000w400ggn"
+        }
+    ]
+}
